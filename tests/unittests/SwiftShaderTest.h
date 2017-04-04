@@ -17,10 +17,11 @@
 
 #include <gtest/gtest.h>
 
-class SwiftShaderTestEnvironment : public testing::Environment {
- public:
-  void SetUp() override {}
-  void TearDown() override {}
+class SwiftShaderTestEnvironment : public testing::Environment
+{
+public:
+	void SetUp() override {}
+	void TearDown() override {}
 };
 
 #endif  // SWIFTSHADER_TEST_H_
